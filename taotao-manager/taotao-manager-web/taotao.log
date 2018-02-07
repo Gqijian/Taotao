@@ -1,0 +1,146 @@
+2018-01-11 23:27:56,281 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'itemParamController'
+2018-01-11 23:27:56,282 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'itemParamItemController'
+2018-01-11 23:27:56,282 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'itemParamItemController'
+2018-01-11 23:27:56,283 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,284 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.controller.ItemParamItemController]: AutowiredFieldElement for private com.taotao.service.ItemParamItemService com.taotao.controller.ItemParamItemController.itemParamItemService
+2018-01-11 23:27:56,285 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'itemParamItemController' to allow for resolving potential circular references
+2018-01-11 23:27:56,288 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'itemParamItemController': AutowiredFieldElement for private com.taotao.service.ItemParamItemService com.taotao.controller.ItemParamItemController.itemParamItemService
+2018-01-11 23:27:56,289 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'itemParamItemServiceImpl'
+2018-01-11 23:27:56,289 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'itemParamItemServiceImpl'
+2018-01-11 23:27:56,289 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,290 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.ItemParamItemServiceImpl]: AutowiredFieldElement for private com.taotao.mapper.TbItemParamItemMapper com.taotao.service.impl.ItemParamItemServiceImpl.itemParamItemMapper
+2018-01-11 23:27:56,290 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'itemParamItemServiceImpl' to allow for resolving potential circular references
+2018-01-11 23:27:56,292 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'itemParamItemServiceImpl': AutowiredFieldElement for private com.taotao.mapper.TbItemParamItemMapper com.taotao.service.impl.ItemParamItemServiceImpl.itemParamItemMapper
+2018-01-11 23:27:56,293 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-01-11 23:27:56,293 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemParamItemServiceImpl' to bean named 'tbItemParamItemMapper'
+2018-01-11 23:27:56,293 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,293 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,294 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'itemParamItemServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-01-11 23:27:56,294 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.service.impl.ItemParamItemServiceImpl@c94fd30]
+2018-01-11 23:27:56,297 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'itemParamItemServiceImpl'
+2018-01-11 23:27:56,298 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'itemParamItemController' to bean named 'itemParamItemServiceImpl'
+2018-01-11 23:27:56,298 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,298 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,299 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'itemParamItemController'
+2018-01-11 23:27:56,299 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'pageController'
+2018-01-11 23:27:56,299 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'pageController'
+2018-01-11 23:27:56,299 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,300 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'pageController' to allow for resolving potential circular references
+2018-01-11 23:27:56,301 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,301 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,302 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'pageController'
+2018-01-11 23:27:56,302 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'pictureController'
+2018-01-11 23:27:56,302 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'pictureController'
+2018-01-11 23:27:56,302 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,303 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.controller.PictureController]: AutowiredFieldElement for private com.taotao.service.PictureService com.taotao.controller.PictureController.pictureService
+2018-01-11 23:27:56,304 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'pictureController' to allow for resolving potential circular references
+2018-01-11 23:27:56,305 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureController': AutowiredFieldElement for private com.taotao.service.PictureService com.taotao.controller.PictureController.pictureService
+2018-01-11 23:27:56,305 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating shared instance of singleton bean 'pictureServiceImpl'
+2018-01-11 23:27:56,305 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'pictureServiceImpl'
+2018-01-11 23:27:56,306 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,307 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.PictureServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_ADDRESS
+2018-01-11 23:27:56,307 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.PictureServiceImpl]: AutowiredFieldElement for private java.lang.Integer com.taotao.service.impl.PictureServiceImpl.FTP_PORT
+2018-01-11 23:27:56,307 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.PictureServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_USERNAME
+2018-01-11 23:27:56,307 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.PictureServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_PASSWORD
+2018-01-11 23:27:56,307 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.PictureServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_BASE_PATH
+2018-01-11 23:27:56,307 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Registered injected element on class [com.taotao.service.impl.PictureServiceImpl]: AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.IMAGE_BASE_URL
+2018-01-11 23:27:56,308 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Eagerly caching bean 'pictureServiceImpl' to allow for resolving potential circular references
+2018-01-11 23:27:56,309 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_ADDRESS
+2018-01-11 23:27:56,309 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_ADDRESS' in [environmentProperties]
+2018-01-11 23:27:56,309 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_ADDRESS' in [systemProperties]
+2018-01-11 23:27:56,309 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_ADDRESS' in [systemEnvironment]
+2018-01-11 23:27:56,309 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'FTP_ADDRESS' in any property source. Returning [null]
+2018-01-11 23:27:56,310 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_ADDRESS' in [localProperties]
+2018-01-11 23:27:56,310 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'FTP_ADDRESS' in [localProperties] with type [String] and value '192.168.25.133'
+2018-01-11 23:27:56,310 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureServiceImpl': AutowiredFieldElement for private java.lang.Integer com.taotao.service.impl.PictureServiceImpl.FTP_PORT
+2018-01-11 23:27:56,310 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PORT' in [environmentProperties]
+2018-01-11 23:27:56,310 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PORT' in [systemProperties]
+2018-01-11 23:27:56,310 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PORT' in [systemEnvironment]
+2018-01-11 23:27:56,310 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'FTP_PORT' in any property source. Returning [null]
+2018-01-11 23:27:56,311 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PORT' in [localProperties]
+2018-01-11 23:27:56,311 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'FTP_PORT' in [localProperties] with type [String] and value '21'
+2018-01-11 23:27:56,311 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_USERNAME
+2018-01-11 23:27:56,311 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_USERNAME' in [environmentProperties]
+2018-01-11 23:27:56,311 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_USERNAME' in [systemProperties]
+2018-01-11 23:27:56,311 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_USERNAME' in [systemEnvironment]
+2018-01-11 23:27:56,311 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'FTP_USERNAME' in any property source. Returning [null]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_USERNAME' in [localProperties]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'FTP_USERNAME' in [localProperties] with type [String] and value 'ftpuser'
+2018-01-11 23:27:56,312 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_PASSWORD
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PASSWORD' in [environmentProperties]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PASSWORD' in [systemProperties]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PASSWORD' in [systemEnvironment]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'FTP_PASSWORD' in any property source. Returning [null]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_PASSWORD' in [localProperties]
+2018-01-11 23:27:56,312 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'FTP_PASSWORD' in [localProperties] with type [String] and value 'ftpuser'
+2018-01-11 23:27:56,313 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.FTP_BASE_PATH
+2018-01-11 23:27:56,313 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_BASE_PATH' in [environmentProperties]
+2018-01-11 23:27:56,313 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_BASE_PATH' in [systemProperties]
+2018-01-11 23:27:56,313 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_BASE_PATH' in [systemEnvironment]
+2018-01-11 23:27:56,313 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'FTP_BASE_PATH' in any property source. Returning [null]
+2018-01-11 23:27:56,313 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'FTP_BASE_PATH' in [localProperties]
+2018-01-11 23:27:56,313 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'FTP_BASE_PATH' in [localProperties] with type [String] and value '/home/ftpuser/www/images'
+2018-01-11 23:27:56,314 [main] [org.springframework.beans.factory.annotation.InjectionMetadata]-[DEBUG] Processing injected method of bean 'pictureServiceImpl': AutowiredFieldElement for private java.lang.String com.taotao.service.impl.PictureServiceImpl.IMAGE_BASE_URL
+2018-01-11 23:27:56,314 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'IMAGE_BASE_URL' in [environmentProperties]
+2018-01-11 23:27:56,314 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'IMAGE_BASE_URL' in [systemProperties]
+2018-01-11 23:27:56,314 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'IMAGE_BASE_URL' in [systemEnvironment]
+2018-01-11 23:27:56,315 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'IMAGE_BASE_URL' in any property source. Returning [null]
+2018-01-11 23:27:56,315 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'IMAGE_BASE_URL' in [localProperties]
+2018-01-11 23:27:56,315 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Found key 'IMAGE_BASE_URL' in [localProperties] with type [String] and value 'http://192.168.25.133/images'
+2018-01-11 23:27:56,315 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,315 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,317 [main] [org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator]-[DEBUG] Creating implicit proxy for bean 'pictureServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-01-11 23:27:56,318 [main] [org.springframework.aop.framework.JdkDynamicAopProxy]-[DEBUG] Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.service.impl.PictureServiceImpl@45312be2]
+2018-01-11 23:27:56,320 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'pictureServiceImpl'
+2018-01-11 23:27:56,320 [main] [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]-[DEBUG] Autowiring by type from bean name 'pictureController' to bean named 'pictureServiceImpl'
+2018-01-11 23:27:56,320 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,320 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,320 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'pictureController'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentCategorServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemCatServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemParamItemServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemParamServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'pictureServiceImpl'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'transactionManager'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'txAdvice'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentCategoryMapper'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbContentMapper'
+2018-01-11 23:27:56,321 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemDescMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemParamMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderItemMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbOrderShippingMapper'
+2018-01-11 23:27:56,322 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbUserMapper'
+2018-01-11 23:27:56,323 [main] [org.springframework.context.support.ClassPathXmlApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@50d13246]
+2018-01-11 23:27:56,324 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-01-11 23:27:56,326 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-01-11 23:27:56,327 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-01-11 23:27:56,327 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-01-11 23:27:56,327 [main] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-01-11 23:27:56,328 [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'tbItemMapper'
+2018-01-11 23:27:56,333 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-01-11 23:27:56,346 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f010bf0] was not registered for synchronization because synchronization is not active
+2018-01-11 23:27:56,413 [main] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-01-11 23:27:56,628 [main] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2018-01-11 23:27:56,855 [main] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@5b619d14] will not be managed by Spring
+2018-01-11 23:27:56,860 [main] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper_Count]-[DEBUG] ==>  Preparing: SELECT count(*) FROM tb_item 
+2018-01-11 23:27:56,876 [main] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper_Count]-[DEBUG] ==> Parameters: 
+2018-01-11 23:27:56,902 [main] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper_Count]-[DEBUG] <==      Total: 1
+2018-01-11 23:27:56,904 [main] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper]-[DEBUG] ==>  Preparing: select id, title, sell_point, price, num, barcode, image, cid, status, created, updated from tb_item limit ?,? 
+2018-01-11 23:27:56,905 [main] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper]-[DEBUG] ==> Parameters: 0(Integer), 10(Integer)
+2018-01-11 23:27:56,918 [main] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper]-[DEBUG] <==      Total: 10
+2018-01-11 23:27:56,918 [main] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f010bf0]
+2018-01-11 23:27:56,919 [main] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource

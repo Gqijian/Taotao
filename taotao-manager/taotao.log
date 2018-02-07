@@ -1,0 +1,180 @@
+2018-01-12 19:14:13,848 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/js/jquery-easyui-1.4.1/themes/icons/filesave.png]
+2018-01-12 19:14:13,849 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /css/images/panel_tools.png
+2018-01-12 19:14:13,849 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /js/jquery-easyui-1.4.1/themes/icons/filesave.png
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/css/images/panel_tools.png]
+2018-01-12 19:14:13,850 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/js/jquery-easyui-1.4.1/themes/icons/filesave.png]
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] Matching patterns for request [/css/images/panel_tools.png] are [/css/**]
+2018-01-12 19:14:13,850 [http-bio-8080-exec-5] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] Matching patterns for request [/js/jquery-easyui-1.4.1/themes/icons/filesave.png] are [/js/**]
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] URI Template variables for request [/css/images/panel_tools.png] are {}
+2018-01-12 19:14:13,850 [http-bio-8080-exec-5] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] URI Template variables for request [/js/jquery-easyui-1.4.1/themes/icons/filesave.png] are {}
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] Mapping [/css/images/panel_tools.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/WEB-INF/css/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@217b32d7]]] and 1 interceptor
+2018-01-12 19:14:13,850 [http-bio-8080-exec-5] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] Mapping [/js/jquery-easyui-1.4.1/themes/icons/filesave.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/js/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@d18bfdc]]] and 1 interceptor
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/css/images/panel_tools.png] is: -1
+2018-01-12 19:14:13,850 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/js/jquery-easyui-1.4.1/themes/icons/filesave.png] is: -1
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:13,850 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:13,851 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:13,851 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:13,864 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/item/list]
+2018-01-12 19:14:13,864 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/list
+2018-01-12 19:14:13,864 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.taotao.common.pojo.EUDataGridResult com.taotao.controller.ItemController.getItemList(java.lang.Integer,java.lang.Integer)]
+2018-01-12 19:14:13,864 [http-bio-8080-exec-6] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
+2018-01-12 19:14:13,865 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/item/list] is: -1
+2018-01-12 19:14:13,886 [http-bio-8080-exec-6] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-01-12 19:14:13,900 [http-bio-8080-exec-6] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24ed50c1]
+2018-01-12 19:14:14,000 [http-bio-8080-exec-6] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-01-12 19:14:14,035 [http-bio-8080-exec-6] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
+2018-01-12 19:14:14,213 [http-bio-8080-exec-6] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2018-01-12 19:14:14,213 [http-bio-8080-exec-6] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@7096395b] will be managed by Spring
+2018-01-12 19:14:14,213 [http-bio-8080-exec-6] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper_Count]-[DEBUG] ==>  Preparing: SELECT count(*) FROM tb_item 
+2018-01-12 19:14:14,233 [http-bio-8080-exec-6] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper_Count]-[DEBUG] ==> Parameters: 
+2018-01-12 19:14:14,243 [http-bio-8080-exec-6] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper_Count]-[DEBUG] <==      Total: 1
+2018-01-12 19:14:14,243 [http-bio-8080-exec-6] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper]-[DEBUG] ==>  Preparing: select id, title, sell_point, price, num, barcode, image, cid, status, created, updated from tb_item limit ?,? 
+2018-01-12 19:14:14,243 [http-bio-8080-exec-6] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper]-[DEBUG] ==> Parameters: 0(Integer), 30(Integer)
+2018-01-12 19:14:14,253 [http-bio-8080-exec-6] [com.taotao.mapper.TbItemMapper.selectByExample_PageHelper]-[DEBUG] <==      Total: 30
+2018-01-12 19:14:14,253 [http-bio-8080-exec-6] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24ed50c1]
+2018-01-12 19:14:14,253 [http-bio-8080-exec-6] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24ed50c1]
+2018-01-12 19:14:14,253 [http-bio-8080-exec-6] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24ed50c1]
+2018-01-12 19:14:14,253 [http-bio-8080-exec-6] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-01-12 19:14:14,284 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.taotao.common.pojo.EUDataGridResult@7d7f3e30
+2018-01-12 19:14:14,284 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.taotao.common.pojo.EUDataGridResult@7d7f3e30
+2018-01-12 19:14:14,304 [http-bio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.taotao.common.pojo.EUDataGridResult@7d7f3e30] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@29d2e692]
+2018-01-12 19:14:14,304 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:14,304 [http-bio-8080-exec-6] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:14,767 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/item-param-list]
+2018-01-12 19:14:14,768 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item-param-list
+2018-01-12 19:14:14,768 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.controller.PageController.showpage(java.lang.String)]
+2018-01-12 19:14:14,768 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'pageController'
+2018-01-12 19:14:14,769 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/item-param-list] is: -1
+2018-01-12 19:14:14,769 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'item-param-list'
+2018-01-12 19:14:14,769 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'item-param-list'; URL [/WEB-INF/jsp/item-param-list.jsp]] in DispatcherServlet with name 'taotao-manager'
+2018-01-12 19:14:14,769 [http-bio-8080-exec-4] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'page' of type [java.lang.String] to request in view with name 'item-param-list'
+2018-01-12 19:14:14,770 [http-bio-8080-exec-4] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/item-param-list.jsp] in InternalResourceView 'item-param-list'
+2018-01-12 19:14:14,825 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:14,871 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/item/param/list]
+2018-01-12 19:14:14,871 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/param/list
+2018-01-12 19:14:14,872 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/item/param/list]
+2018-01-12 19:14:14,872 [http-bio-8080-exec-4] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/item/param/list] in DispatcherServlet with name 'taotao-manager'
+2018-01-12 19:14:14,873 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,196 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content-category]
+2018-01-12 19:14:39,196 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content-category
+2018-01-12 19:14:39,197 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.controller.PageController.showpage(java.lang.String)]
+2018-01-12 19:14:39,197 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'pageController'
+2018-01-12 19:14:39,197 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/content-category] is: -1
+2018-01-12 19:14:39,198 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'content-category'
+2018-01-12 19:14:39,198 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'content-category'; URL [/WEB-INF/jsp/content-category.jsp]] in DispatcherServlet with name 'taotao-manager'
+2018-01-12 19:14:39,198 [http-bio-8080-exec-4] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'page' of type [java.lang.String] to request in view with name 'content-category'
+2018-01-12 19:14:39,198 [http-bio-8080-exec-4] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/content-category.jsp] in InternalResourceView 'content-category'
+2018-01-12 19:14:39,260 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,278 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content/category/list]
+2018-01-12 19:14:39,278 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/category/list
+2018-01-12 19:14:39,279 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCatList(long)]
+2018-01-12 19:14:39,279 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentCategoryController'
+2018-01-12 19:14:39,279 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/content/category/list] is: -1
+2018-01-12 19:14:39,286 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-01-12 19:14:39,289 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea8d7fa]
+2018-01-12 19:14:39,310 [http-bio-8080-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-01-12 19:14:39,311 [http-bio-8080-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2018-01-12 19:14:39,311 [http-bio-8080-exec-4] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@7096395b] will be managed by Spring
+2018-01-12 19:14:39,311 [http-bio-8080-exec-4] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_content_category WHERE ( parent_id = ? ) 
+2018-01-12 19:14:39,312 [http-bio-8080-exec-4] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==> Parameters: 0(Long)
+2018-01-12 19:14:39,314 [http-bio-8080-exec-4] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] <==      Total: 1
+2018-01-12 19:14:39,314 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea8d7fa]
+2018-01-12 19:14:39,314 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea8d7fa]
+2018-01-12 19:14:39,314 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ea8d7fa]
+2018-01-12 19:14:39,314 [http-bio-8080-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-01-12 19:14:39,317 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=[com.taotao.common.pojo.EasyUITreeNode@40803ea0]
+2018-01-12 19:14:39,317 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=[com.taotao.common.pojo.EasyUITreeNode@40803ea0]
+2018-01-12 19:14:39,318 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [[com.taotao.common.pojo.EasyUITreeNode@40803ea0]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@29d2e692]
+2018-01-12 19:14:39,318 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:39,318 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,320 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content/category/list]
+2018-01-12 19:14:39,321 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/category/list
+2018-01-12 19:14:39,321 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCatList(long)]
+2018-01-12 19:14:39,321 [http-bio-8080-exec-5] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentCategoryController'
+2018-01-12 19:14:39,321 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/content/category/list] is: -1
+2018-01-12 19:14:39,321 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-01-12 19:14:39,321 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45b9f8c0]
+2018-01-12 19:14:39,322 [http-bio-8080-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-01-12 19:14:39,322 [http-bio-8080-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2018-01-12 19:14:39,322 [http-bio-8080-exec-5] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@7096395b] will be managed by Spring
+2018-01-12 19:14:39,322 [http-bio-8080-exec-5] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_content_category WHERE ( parent_id = ? ) 
+2018-01-12 19:14:39,323 [http-bio-8080-exec-5] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==> Parameters: 0(Long)
+2018-01-12 19:14:39,327 [http-bio-8080-exec-5] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] <==      Total: 1
+2018-01-12 19:14:39,327 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45b9f8c0]
+2018-01-12 19:14:39,327 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45b9f8c0]
+2018-01-12 19:14:39,327 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45b9f8c0]
+2018-01-12 19:14:39,327 [http-bio-8080-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-01-12 19:14:39,328 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=[com.taotao.common.pojo.EasyUITreeNode@6f76c1d4]
+2018-01-12 19:14:39,328 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=[com.taotao.common.pojo.EasyUITreeNode@6f76c1d4]
+2018-01-12 19:14:39,328 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [[com.taotao.common.pojo.EasyUITreeNode@6f76c1d4]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@29d2e692]
+2018-01-12 19:14:39,328 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:39,328 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/css/images/tree_icons.png]
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /css/images/tree_icons.png
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/css/images/tree_icons.png]
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] Matching patterns for request [/css/images/tree_icons.png] are [/css/**]
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] URI Template variables for request [/css/images/tree_icons.png] are {}
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]-[DEBUG] Mapping [/css/images/tree_icons.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/WEB-INF/css/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@217b32d7]]] and 1 interceptor
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/css/images/tree_icons.png] is: -1
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:39,333 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,902 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content]
+2018-01-12 19:14:39,903 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content
+2018-01-12 19:14:39,903 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.lang.String com.taotao.controller.PageController.showpage(java.lang.String)]
+2018-01-12 19:14:39,903 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'pageController'
+2018-01-12 19:14:39,904 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/content] is: -1
+2018-01-12 19:14:39,905 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Invoking afterPropertiesSet() on bean with name 'content'
+2018-01-12 19:14:39,905 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Rendering view [org.springframework.web.servlet.view.JstlView: name 'content'; URL [/WEB-INF/jsp/content.jsp]] in DispatcherServlet with name 'taotao-manager'
+2018-01-12 19:14:39,905 [http-bio-8080-exec-4] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Added model object 'page' of type [java.lang.String] to request in view with name 'content'
+2018-01-12 19:14:39,906 [http-bio-8080-exec-4] [org.springframework.web.servlet.view.JstlView]-[DEBUG] Forwarding to resource [/WEB-INF/jsp/content.jsp] in InternalResourceView 'content'
+2018-01-12 19:14:39,960 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,967 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content/category/list]
+2018-01-12 19:14:39,967 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/category/list
+2018-01-12 19:14:39,967 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCatList(long)]
+2018-01-12 19:14:39,967 [http-bio-8080-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentCategoryController'
+2018-01-12 19:14:39,967 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/content/category/list] is: -1
+2018-01-12 19:14:39,968 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-01-12 19:14:39,968 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5054124e]
+2018-01-12 19:14:39,968 [http-bio-8080-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-01-12 19:14:39,968 [http-bio-8080-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2018-01-12 19:14:39,968 [http-bio-8080-exec-4] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@7096395b] will be managed by Spring
+2018-01-12 19:14:39,968 [http-bio-8080-exec-4] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_content_category WHERE ( parent_id = ? ) 
+2018-01-12 19:14:39,969 [http-bio-8080-exec-4] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==> Parameters: 0(Long)
+2018-01-12 19:14:39,969 [http-bio-8080-exec-4] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] <==      Total: 1
+2018-01-12 19:14:39,970 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5054124e]
+2018-01-12 19:14:39,970 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5054124e]
+2018-01-12 19:14:39,970 [http-bio-8080-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5054124e]
+2018-01-12 19:14:39,970 [http-bio-8080-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-01-12 19:14:39,970 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=[com.taotao.common.pojo.EasyUITreeNode@1d096fe]
+2018-01-12 19:14:39,970 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=[com.taotao.common.pojo.EasyUITreeNode@1d096fe]
+2018-01-12 19:14:39,971 [http-bio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [[com.taotao.common.pojo.EasyUITreeNode@1d096fe]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@29d2e692]
+2018-01-12 19:14:39,971 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:39,971 [http-bio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:39,972 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content/category/list]
+2018-01-12 19:14:39,972 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/category/list
+2018-01-12 19:14:39,972 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public java.util.List<com.taotao.common.pojo.EasyUITreeNode> com.taotao.controller.ContentCategoryController.getContentCatList(long)]
+2018-01-12 19:14:39,972 [http-bio-8080-exec-5] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'contentCategoryController'
+2018-01-12 19:14:39,972 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/content/category/list] is: -1
+2018-01-12 19:14:39,973 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
+2018-01-12 19:14:39,973 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32e2467b]
+2018-01-12 19:14:39,974 [http-bio-8080-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
+2018-01-12 19:14:39,974 [http-bio-8080-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
+2018-01-12 19:14:39,974 [http-bio-8080-exec-5] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@7096395b] will be managed by Spring
+2018-01-12 19:14:39,974 [http-bio-8080-exec-5] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_content_category WHERE ( parent_id = ? ) 
+2018-01-12 19:14:39,974 [http-bio-8080-exec-5] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] ==> Parameters: 0(Long)
+2018-01-12 19:14:39,975 [http-bio-8080-exec-5] [com.taotao.mapper.TbContentCategoryMapper.selectByExample]-[DEBUG] <==      Total: 1
+2018-01-12 19:14:39,976 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32e2467b]
+2018-01-12 19:14:39,976 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32e2467b]
+2018-01-12 19:14:39,976 [http-bio-8080-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32e2467b]
+2018-01-12 19:14:39,976 [http-bio-8080-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2018-01-12 19:14:39,976 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=[com.taotao.common.pojo.EasyUITreeNode@2405846b]
+2018-01-12 19:14:39,976 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=[com.taotao.common.pojo.EasyUITreeNode@2405846b]
+2018-01-12 19:14:39,977 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [[com.taotao.common.pojo.EasyUITreeNode@2405846b]] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@29d2e692]
+2018-01-12 19:14:39,977 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'taotao-manager': assuming HandlerAdapter completed request handling
+2018-01-12 19:14:39,977 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2018-01-12 19:14:40,038 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'taotao-manager' processing GET request for [/content/query/list]
+2018-01-12 19:14:40,039 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /content/query/list
+2018-01-12 19:14:40,039 [http-bio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Did not find handler method for [/content/query/list]
+2018-01-12 19:14:40,039 [http-bio-8080-exec-5] [org.springframework.web.servlet.PageNotFound]-[WARN] No mapping found for HTTP request with URI [/content/query/list] in DispatcherServlet with name 'taotao-manager'
+2018-01-12 19:14:40,039 [http-bio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
